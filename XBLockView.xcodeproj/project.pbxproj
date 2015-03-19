@@ -14,6 +14,7 @@
 		D006DB191ABA6ABD00C32EC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D006DB181ABA6ABD00C32EC0 /* Images.xcassets */; };
 		D006DB1C1ABA6ABD00C32EC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D006DB1A1ABA6ABD00C32EC0 /* LaunchScreen.xib */; };
 		D006DB281ABA6ABD00C32EC0 /* XBLockViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D006DB271ABA6ABD00C32EC0 /* XBLockViewTests.m */; };
+		D006DB341ABA6AF900C32EC0 /* XBLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = D006DB331ABA6AF900C32EC0 /* XBLockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D006DB211ABA6ABD00C32EC0 /* XBLockViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBLockViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D006DB261ABA6ABD00C32EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D006DB271ABA6ABD00C32EC0 /* XBLockViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBLockViewTests.m; sourceTree = "<group>"; };
+		D006DB321ABA6AF900C32EC0 /* XBLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XBLockView.h; path = XBLockView/XBLockView.h; sourceTree = "<group>"; };
+		D006DB331ABA6AF900C32EC0 /* XBLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XBLockView.m; path = XBLockView/XBLockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		D006DB0A1ABA6ABD00C32EC0 /* XBLockView */ = {
 			isa = PBXGroup;
 			children = (
+				D006DB311ABA6ADD00C32EC0 /* XBLockView */,
 				D006DB0F1ABA6ABD00C32EC0 /* AppDelegate.h */,
 				D006DB101ABA6ABD00C32EC0 /* AppDelegate.m */,
 				D006DB121ABA6ABD00C32EC0 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				D006DB261ABA6ABD00C32EC0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D006DB311ABA6ADD00C32EC0 /* XBLockView */ = {
+			isa = PBXGroup;
+			children = (
+				D006DB321ABA6AF900C32EC0 /* XBLockView.h */,
+				D006DB331ABA6AF900C32EC0 /* XBLockView.m */,
+			);
+			name = XBLockView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D006DB141ABA6ABD00C32EC0 /* ViewController.m in Sources */,
+				D006DB341ABA6AF900C32EC0 /* XBLockView.m in Sources */,
 				D006DB111ABA6ABD00C32EC0 /* AppDelegate.m in Sources */,
 				D006DB0E1ABA6ABD00C32EC0 /* main.m in Sources */,
 			);

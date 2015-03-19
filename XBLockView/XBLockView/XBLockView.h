@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XBLockView : UIView
+@protocol XBLockViewDelegate <NSObject>
+- (void)XBLockViewLockPassword:(NSString*)password;
+@end
 
+@interface XBLockView : UIView
+@property(nonatomic,weak)id<XBLockViewDelegate> delegate;
+- (id)initWithSize:(CGRect)frame hor:(int)hor ver:(int)ver;
 @end

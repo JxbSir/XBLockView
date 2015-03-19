@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XBLockView.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    XBLockView* lock = [[XBLockView alloc] initWithSize:self.view.bounds hor:3 ver:3];
+    [self.view addSubview:lock];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
